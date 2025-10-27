@@ -1,1 +1,5 @@
-<h1>Hello World! Welcome to the Playground app using python Django framework.</h1>
+{% if name %}
+<h1>Hello {{ name }}! Welcome to the Playground app using python Django framework.</h1>
+{% else %}
+<h1>Hello! Welcome to the Playground app using python Django framework.</h1>
+{% endif %}
